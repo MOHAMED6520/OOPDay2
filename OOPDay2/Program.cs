@@ -169,7 +169,22 @@ namespace OOPDay2
             //EmployeeProcess (partTime); 
             #endregion
 
+            #region Binding Example
+            //TypeC typeA;
 
+            //// typeA = new TypeA();
+            ////typeA = new TypeB();
+            ////typeA = new TypeC();
+            //typeA = new TypeD();
+
+            //typeA.A = 12;
+            ////typeA.B = 5;
+            ////typeA.C = 5;
+            ////typeA.D = 5;
+
+            //typeA.Fun01();
+            //typeA.Fun02(); 
+            #endregion
 
         }
     }
