@@ -81,7 +81,6 @@ namespace OOPDay2
             //Sum(1.5, 1.7); 
             #endregion
 
-
             #region overriding
             // overriding
             //TypeB typeB = new TypeB() { A =12 , B =13};
@@ -95,6 +94,20 @@ namespace OOPDay2
             #endregion
 
 
+            #region Binding
+            ////Binding
+
+            // TypeA Ref;
+            // Ref = new TypeA();
+            // Ref = new TypeB();
+
+            // Ref.A = 12;
+            // // Ref.B = 13; //invalid
+
+            //// Ref.Fun01();
+
+            // Ref.Fun02(); 
+            #endregion
         }
     }
 }
