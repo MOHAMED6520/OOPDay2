@@ -93,7 +93,6 @@ namespace OOPDay2
             //typeB.Fun02(); 
             #endregion
 
-
             #region Binding
             ////Binding
 
@@ -107,7 +106,22 @@ namespace OOPDay2
             //// Ref.Fun01();
 
             // Ref.Fun02(); 
+
             #endregion
+
+            #region Not Binding
+
+            //Not Binding
+
+            // // TypeB typeB = new TypeB();
+            ////// typeB = new TypeA(); //Invalid
+
+            //  TypeA typeA = new TypeA();
+            //  //typeA = new TypeB();
+
+            //  TypeB Ref = (TypeB) typeA; //Not Binding 
+            #endregion
+
         }
     }
 }
