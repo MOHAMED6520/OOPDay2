@@ -1,4 +1,5 @@
 ﻿using OOPDay2.Inheritance;
+using OOPDay2.Overriding;
 
 namespace OOPDay2
 {
@@ -79,6 +80,20 @@ namespace OOPDay2
 
             //Sum(1.5, 1.7); 
             #endregion
+
+
+            #region overriding
+            // overriding
+            //TypeB typeB = new TypeB() { A =12 , B =13};
+
+            ////typeB.A = 12;
+            ////typeB.B = 13;
+            //Console.WriteLine(typeB.A);
+            //Console.WriteLine(typeB.B);
+            //typeB.Fun01();
+            //typeB.Fun02(); 
+            #endregion
+
 
         }
     }
