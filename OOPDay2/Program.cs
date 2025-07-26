@@ -26,10 +26,32 @@ namespace OOPDay2
 
     //} 
     #endregion
-    internal class Program
 
-      
+    
+    internal class Program 
     {
+        #region Overloading
+        //static int Sum (int x , int y)
+        //{
+        //    return x + y; 
+        //}
+
+        //static double Sum(double x, double y)
+        //{
+        //    return x + y;
+        //}
+
+        //static double Sum(double x, int y)
+        //{
+        //    return x + y;
+        //}
+
+        //static double Sum(double x, int y, int z)
+        //{
+        //    return x + y + z;
+        //} 
+        #endregion
+
         static void Main(string[] args)
         {
 
@@ -46,6 +68,17 @@ namespace OOPDay2
             //child.Fun02(); 
             #endregion
 
+            #region Overloading
+
+            //Polymorphism
+
+            // Overloading
+            //Sum(5, 6);
+
+            //Sum(1.2, 7);
+
+            //Sum(1.5, 1.7); 
+            #endregion
 
         }
     }
