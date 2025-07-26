@@ -1,4 +1,5 @@
-﻿using OOPDay2.Inheritance;
+﻿using OOPDay2.Binding;
+using OOPDay2.Inheritance;
 using OOPDay2.Overriding;
 
 namespace OOPDay2
@@ -53,6 +54,26 @@ namespace OOPDay2
         //} 
         #endregion
 
+        //static void EmployeeProcess (FullTimeEmployee employee)
+        //{
+        //    employee.Fun01();
+        //    employee.Fun02();
+        //}
+
+        //static void EmployeeProcess(PartTimeEmployee employee)
+        //{
+        //    employee.Fun01();
+        //    employee.Fun02();
+        //}
+
+        static void EmployeeProcess(Employee employee)
+        {
+            if (employee is not null)
+            {
+                employee.Fun01();
+                employee.Fun02();
+            }
+        }
         static void Main(string[] args)
         {
 
@@ -121,6 +142,34 @@ namespace OOPDay2
 
             //  TypeB Ref = (TypeB) typeA; //Not Binding 
             #endregion
+
+            #region When U Need Binding
+            //FullTimeEmployee fullTime = new FullTimeEmployee()
+            //{
+            // ID = 1,
+            // Name = "Mohamed",
+            // Address = "Cairo",
+            // Email = "mo@gm.c",
+            // Salary =12000
+
+            //};
+
+            //PartTimeEmployee partTime = new PartTimeEmployee()
+            //{
+            //    ID = 1,
+            //    Name = "Mohamed",
+            //    Address = "Cairo",
+            //    Email = "mo@gm.c",
+            //    NumOfHour = 20,
+            //    PriceOfHour = 200,
+
+            //};
+
+            //EmployeeProcess (fullTime);
+            //EmployeeProcess (partTime); 
+            #endregion
+
+
 
         }
     }
