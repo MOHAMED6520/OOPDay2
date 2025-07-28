@@ -1,7 +1,7 @@
 ﻿using OOPDay2.Binding;
 using OOPDay2.Inheritance;
 using OOPDay2.Overriding;
-
+using ClassLibrary1;
 namespace OOPDay2
 {
 
@@ -29,8 +29,8 @@ namespace OOPDay2
     //} 
     #endregion
 
-    
-    internal class Program 
+
+    internal class Program : Class1
     {
         #region Overloading
         //static int Sum (int x , int y)
@@ -77,7 +77,7 @@ namespace OOPDay2
         static void Main(string[] args)
         {
 
-
+        
             #region Inheritance
             //// Inheritance
             //Parent parent = new Parent(1,2);
@@ -186,6 +186,15 @@ namespace OOPDay2
             //typeA.Fun02(); 
             #endregion
 
+          
+
+            Program class1 = new Program();
+             void fun()
+            { class1.X = 5; }
+
         }
     }
 }
+
+
+
